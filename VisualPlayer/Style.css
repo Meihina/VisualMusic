@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+button{
+    background-color: black;
+    border: 1px solid;
+    border-color: white;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 5px;
+    outline: none;
+    box-shadow: 3px 3px 2px gray;
+}
+
+.dropbtn {
+    background-color: black;
+    border: 1px solid;
+    border-color: white;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 5px;
+    outline: none;
+    box-shadow: 3px 3px 2px gray;
+    margin-left: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: gray;
+}
+
+#Loop{
+    border-color: white;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+#Stop:active , #Begin:active , #Loop:active{
+    box-shadow: 1px 1px 2px gray;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.MainPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    z-index: 1000;
+}
+
+.MusicList , .Btns{
+    flex-grow: 1;
+}
+
+.Btns{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.show{
+    width: 100vw;
+    height: 92vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cav{
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
